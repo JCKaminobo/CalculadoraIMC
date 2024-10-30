@@ -32,6 +32,6 @@ function calcular(event){
     }else if(imc > 25 && imc <= 29.99){
         resultado.innerHTML = '<br/> Seu resultado foi: ' + imc.toFixed(2) + '<br/> Vc está acima do peso !';
     }else if(imc >= 30){
-        resultado.innerHTML = '<br/> Seu resultado foi: ' + imc.toFixed(2) + '<br/> Vc esta morto !';
+        resultado.innerHTML = '<br/> Seu resultado foi: ' + imc.toFixed(2) + '<br/> Cuidado, Obesidade !';
     }
 }
